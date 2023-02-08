@@ -1,0 +1,66 @@
+.plans_s1{
+    height: 100vh;
+    background-color: #19191E;
+    margin-top: -2px;
+    margin-left: -2px;
+}
+.plans_title{
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    padding-top: 52px;
+    animation: FadeInDownT 0.65s;
+}
+.plan_container{
+    /* border: 1px solid white; */
+    height: 30rem;
+    animation: FadeInDownT 0.65s;
+}
+.box_container{
+    border: 1px solid #726969d9;
+    border-radius: 10px;
+    height: 21rem;
+    width: 27rem;
+    margin: 0 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bx_plan_txt1{
+    font-size: 25px;
+}
+.bx_plan_txt2{
+    font-size: 71px;
+    font-weight: 500;
+    margin: 10px 0px;
+    position: relative;
+}
+.dollar_sign{
+    position: absolute;
+    top: 2px;
+    left: -9px;
+    font-size: 20px;
+}
+.choose_plan_btn{
+    /* border: 2px solid white; */
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 7px 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 34px;
+    cursor: pointer;
+    background-color: rgba(167, 153, 146, 1);
+    border: none;
+    color: rgba(12, 12, 13, 1);
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+.choose_plan_btn:hover{
+    background-color: rgb(119 109 104);
+}

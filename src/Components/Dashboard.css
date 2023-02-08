@@ -1,0 +1,225 @@
+.dashboard_s1{
+    min-height: 100vh;
+    background-color: #19191E;
+    margin-top: -2px;
+}
+.dash_right{
+    padding: 1rem 4rem 0rem 3rem;
+}
+/*  1 Dashboard (inicio)  */
+.balance_con{
+    border: 2px solid #ffab40cc;
+    background-color: #6633991a;
+    height: 6rem;
+    /* border-image: linear-gradient(to right, darkblue, darkorchid) 1; */
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    padding: 3px 24px;
+}
+.balance_title{
+    margin-top: 3px;
+}
+.balance_value{
+    color: #ffab40;
+    font-size: 39px;
+    font-weight: 600;
+    /* line-height: 56px; */
+    padding-left: 2rem;
+}
+.s2_txt1::placeholder{
+    color: black;
+}
+.bal_bottom_con{
+    /* border: 2px solid white; */
+    min-height: 30rem;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.bbc_elem1{
+    border: 2px solid #ffab40cc;
+    background-color: #6633991a;
+    border-radius: 10px;
+    height: 29rem;
+    width: 20rem;
+    color: white;
+}
+.bbc_elem1_txt1{
+    font-size: 20px;
+    margin-top: 7px;
+    margin-left: 1.5rem;
+    font-weight: 600;
+}
+.bbc_elem1_txt2{
+    font-size: 12px;
+    margin-left: 1.5rem;
+}
+.bbc_elem1_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bbc_elem2{
+    border: 2px solid #ffab40cc;
+    background-color: #6633991a;
+    border-radius: 10px;
+    height: 21rem;
+    width: 20rem;
+    color: white;
+}
+.bbc_elem3{
+    border: 2px solid #ffab40cc;
+    background-color: #6633991a;
+    border-radius: 10px;
+    height: 20rem;
+    width: 20rem;
+    color: white;
+}
+.elem3_mini{
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 60%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.member_elem{
+    /* border: 2px solid red; */
+    position: relative;
+    height: 3rem;
+    width: 100%;
+    /* margin: 0 3rem; */
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+}
+.member_row_bg{
+    background: linear-gradient(295deg, rgb(78 78 78 / 61%) 0%, rgb(28 28 28 / 40%) 100%);
+}
+.member_title{
+    color: white;
+}
+.member_value{
+    color: white;
+    position: absolute;
+    right: 30px;
+}
+/* S2 */
+.s2_parent{
+    color: white;
+}
+.s2_txt1{
+    font-size: 37px;
+    margin-bottom: 2rem;
+}
+.s2_text2{
+    font-size: 21px;
+    color: #ffab40;
+}
+.s2_bottom{
+    border: 2px solid #ffab40cc;
+    background-color: #6633991a;
+    height: 5rem;
+    width: 100%;
+    border-radius: 10px ;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.s2_bottom_con{
+    /* width: 100%; */
+    /* border: 2px solid yellow; */
+    height: 5rem;
+}
+/* s4 */
+.planes_mini_con{
+    background-color: #6633991a;
+    border: 2px solid #ffab40cc;
+    height: 21rem;
+    width: 20rem;
+    border-radius: 10px;
+
+}
+.planes_min_title_jk{
+    font-size: 29px;
+}
+.planes_min_title_btn{
+    font-size: 17px;
+    padding: 4px 82px;
+    background-color: #ffab409e;
+    margin-top: 11px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+.planes_min_title_btn:hover{
+    background-color: #ffac406d;
+}
+.planes_table{
+    padding: 1rem;
+}
+.planes_table table{
+
+}
+.planes_table table tr {
+    height: 2.5rem;
+    border-bottom: 1px solid #d0d0d014;
+}
+.planes_table table th{
+    color: #ffffff80;
+    font-weight: 600;
+}
+.planes_table table td{
+    width: 10rem;
+}
+.bonus_table{
+    padding: 1rem;
+}
+.bonus_table table{
+
+}
+.bonus_table table tr {
+    height: 2.5rem;
+    border-bottom: 1px solid #d0d0d014;
+}
+.bonus_table table th{
+    color: #ffffff80;
+    font-weight: 600;
+}
+.bonus_table table td{
+    width: 15rem;
+}
+
+/* s6 */
+.red_dash{
+    border: 2px solid #ffab40cc;
+    background-color: #6633991a;
+    height: 10rem;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: white;
+}
+.red_dash_elem{
+}
+.red_dash_elem3{
+    /* border: 2px solid red; */
+    height: 8rem;
+    width: 12rem;
+}
+.flex-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

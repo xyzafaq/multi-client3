@@ -1,0 +1,29 @@
+.scrolltop{
+    border: 2px solid #00000063;
+    background-color: white;
+    position: fixed;
+    bottom: 10px;
+    right: 7px;
+    height: 2.5rem;
+    width: 2.5rem;
+    overflow: hidden;
+    /* transform: rotate(180deg); */
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scrolltop svg{
+    height: 25px;
+    fill: #000000e1;
+}
+
+@keyframes FadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

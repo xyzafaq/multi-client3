@@ -1,0 +1,19 @@
+.ps_line_container{
+    border: 1px solid rgba(136, 136, 136, 0.641);
+    border-radius: 10px;
+    grid-template-columns: 30% 70%;
+    display: grid;
+    width: 27rem;
+    color: white;
+    margin: 0.6rem 0px;
+}
+.ps_line_child_left{
+    /* border: 1px solid black; */
+    padding: 2px 10px;
+    /* margin-right: 3px; */
+}
+.ps_line_child_right{
+    /* border: 1px solid black; */
+    padding: 2px 10px;
+
+}

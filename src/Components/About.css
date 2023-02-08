@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Font 1";
+    src: url('../../public/fonts/kablame.ttf');
+}
+.about_s1{
+    height: 100vh;
+    /* background-image: url('../../public/images/5.jpg'); */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-color: #19191E;
+    margin-top: -2px;
+}
+.about_above_img{
+    color: white;
+    padding: 0rem;
+    width: 31rem;
+    /* border: 1px solid #ffc7c7; */
+    padding: 1rem;
+    border-radius: 12px;
+    margin-top: 8rem;
+    /* background: rgb(255,102,182); */
+    /* background: linear-gradient(331deg, #ff66b533 0%, #78f2ff38 100%); */
+    /* backdrop-filter: blur(9px); */
+    animation: FadeInDownT 0.65s;
+}
+.about_above_img div{
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+    color: #ffab40;
+    /* background: -webkit-linear-gradient(rgb(255, 11, 161), rgba(255, 115, 215, 0.9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    /* font-family: 'Font 1'; */
+}
+.about_line{
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin: 0 26px;
+}
+.about_above_img p{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+    color: #d7f8ff;
+}
