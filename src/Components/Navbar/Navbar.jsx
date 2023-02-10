@@ -24,7 +24,7 @@ function Navbar({getData}){
 
   useEffect(()=>{
     const getLoggedin = async ()=>{
-      const res = await fetch('/isloggedin',{
+      const res = await fetch('https://server.multiplataforma-capital.com/isloggedin',{
         method: "GET",
         headers: {
           Accept: "application/json",
