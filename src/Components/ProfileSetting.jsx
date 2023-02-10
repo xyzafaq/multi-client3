@@ -36,7 +36,7 @@ function handleSubmit(e){
   e.preventDefault();
   console.log(myForm);
   const submitform = async () => {
-      const res = await fetch("http://server.multiplataforma-capital.com/bankinfo", {
+      const res = await fetch("https://server.multiplataforma-capital.com/bankinfo", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
