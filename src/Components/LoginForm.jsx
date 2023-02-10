@@ -34,7 +34,7 @@ function LoginForm({getData}) {
   const submitform = async (event)=>{
     setLoading(true);
     event.preventDefault();
-    const res = await fetch("/login",{
+    const res = await fetch("https://server.multiplataforma-capital.com/login",{
       method: "POST",
       headers: {
         "Content-Type" : "application/json"
