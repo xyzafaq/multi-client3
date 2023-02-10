@@ -188,6 +188,7 @@ return (
             <Routes>
                 <Route path='/' element={userlogged?<Dashboard/>:<Home/>} />
                 <Route path='/about' element={<About/>} />
+                <Route path='/about2' element={<About/>} />
                 <Route path='/contact' element={<Contact/>} />
                 {userlogged && <Route path='/profile' element={<ProfileSetting/>} />}
                 {userlogged && <Route path='/plans' element={<Plans/>} />}
