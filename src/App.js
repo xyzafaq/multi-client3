@@ -114,8 +114,7 @@ function App(){
       headers: {
         Accept: "application/json",
         "Content-Type":"application/json"
-      },
-      credentials: "include"
+      }
     });
     const data = await res.json();
     console.log(data);
@@ -129,8 +128,7 @@ function App(){
       headers: {
         Accept: "application/json",
         "Content-Type":"application/json"
-      },
-      credentials: "include"
+      }
       });
       const data = await res.json();
       // setLoading(false)
