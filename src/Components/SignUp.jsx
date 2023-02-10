@@ -36,7 +36,7 @@ const SignUpSchema = Yup.object({
       setLoading(true);
         console.log(values);
         const submitform = async () => {
-            const res = await fetch("/signup", {
+            const res = await fetch("https://server.multiplataforma-capital.com/signup", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",
